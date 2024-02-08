@@ -1,4 +1,4 @@
-package com.Youcode.security.demo;
+package com.Youcode.security.controller;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import org.springframework.security.access.prepost.PreAuthorize;

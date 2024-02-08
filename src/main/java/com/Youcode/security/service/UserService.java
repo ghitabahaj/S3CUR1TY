@@ -1,5 +1,8 @@
-package com.Youcode.security.user;
+package com.Youcode.security.service;
 
+import com.Youcode.security.entities.User;
+import com.Youcode.security.user.ChangePasswordRequest;
+import com.Youcode.security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;

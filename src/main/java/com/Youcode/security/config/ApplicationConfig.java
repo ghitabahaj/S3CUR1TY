@@ -1,7 +1,7 @@
 package com.Youcode.security.config;
 
 import com.Youcode.security.auditing.ApplicationAuditAware;
-import com.Youcode.security.user.UserRepository;
+import com.Youcode.security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

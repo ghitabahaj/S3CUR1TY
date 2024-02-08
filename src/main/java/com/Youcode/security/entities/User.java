@@ -1,6 +1,7 @@
-package com.Youcode.security.user;
+package com.Youcode.security.entities;
 
-import com.Youcode.security.token.Token;
+import com.Youcode.security.enums.Role;
+import com.Youcode.security.entities.Token;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

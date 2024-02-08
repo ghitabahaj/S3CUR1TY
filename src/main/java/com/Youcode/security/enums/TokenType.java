@@ -1,4 +1,4 @@
-package com.Youcode.security.token;
+package com.Youcode.security.enums;
 
 public enum TokenType {
   BEARER

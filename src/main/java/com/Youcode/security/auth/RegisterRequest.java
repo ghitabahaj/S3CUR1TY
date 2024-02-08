@@ -1,6 +1,6 @@
 package com.Youcode.security.auth;
 
-import com.Youcode.security.user.Role;
+import com.Youcode.security.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

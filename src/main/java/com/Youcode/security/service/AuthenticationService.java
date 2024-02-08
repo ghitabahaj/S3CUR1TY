@@ -1,11 +1,13 @@
-package com.Youcode.security.auth;
+package com.Youcode.security.service;
 
-import com.Youcode.security.config.JwtService;
-import com.Youcode.security.token.Token;
-import com.Youcode.security.token.TokenRepository;
-import com.Youcode.security.token.TokenType;
-import com.Youcode.security.user.User;
-import com.Youcode.security.user.UserRepository;
+import com.Youcode.security.auth.AuthenticationRequest;
+import com.Youcode.security.auth.AuthenticationResponse;
+import com.Youcode.security.auth.RegisterRequest;
+import com.Youcode.security.entities.Token;
+import com.Youcode.security.repository.TokenRepository;
+import com.Youcode.security.enums.TokenType;
+import com.Youcode.security.entities.User;
+import com.Youcode.security.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

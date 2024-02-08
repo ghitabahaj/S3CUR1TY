@@ -1,6 +1,6 @@
-package com.Youcode.security.config;
+package com.Youcode.security.service;
 
-import com.Youcode.security.token.TokenRepository;
+import com.Youcode.security.repository.TokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

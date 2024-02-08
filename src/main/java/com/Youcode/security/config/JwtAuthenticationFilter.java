@@ -1,6 +1,7 @@
 package com.Youcode.security.config;
 
-import com.Youcode.security.token.TokenRepository;
+import com.Youcode.security.repository.TokenRepository;
+import com.Youcode.security.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

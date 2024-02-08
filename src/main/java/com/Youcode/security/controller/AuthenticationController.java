@@ -1,5 +1,9 @@
-package com.Youcode.security.auth;
+package com.Youcode.security.controller;
 
+import com.Youcode.security.auth.AuthenticationRequest;
+import com.Youcode.security.auth.AuthenticationResponse;
+import com.Youcode.security.service.AuthenticationService;
+import com.Youcode.security.auth.RegisterRequest;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
@@ -19,6 +23,7 @@ public class AuthenticationController {
   private final AuthenticationService service;
 
   @PostMapping("/register")
+
   public ResponseEntity<AuthenticationResponse> register(
       @RequestBody RegisterRequest request
   ) {

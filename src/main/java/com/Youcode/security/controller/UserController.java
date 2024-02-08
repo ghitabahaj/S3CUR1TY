@@ -1,5 +1,7 @@
-package com.Youcode.security.user;
+package com.Youcode.security.controller;
 
+import com.Youcode.security.service.UserService;
+import com.Youcode.security.user.ChangePasswordRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -24,4 +26,7 @@ public class UserController {
         service.changePassword(request, connectedUser);
         return ResponseEntity.ok().build();
     }
+
+
+
 }

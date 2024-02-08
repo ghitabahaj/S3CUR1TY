@@ -1,4 +1,4 @@
-package com.Youcode.security.user;
+package com.Youcode.security.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
 package com.Youcode.security.auditing;
 
-import com.Youcode.security.user.User;
+import com.Youcode.security.entities.User;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;

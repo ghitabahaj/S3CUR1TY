@@ -1,4 +1,4 @@
-package com.Youcode.security.config;
+package com.Youcode.security.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

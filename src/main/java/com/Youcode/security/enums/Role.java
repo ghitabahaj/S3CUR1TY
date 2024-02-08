@@ -1,5 +1,6 @@
-package com.Youcode.security.user;
+package com.Youcode.security.enums;
 
+import com.Youcode.security.enums.Permission;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
