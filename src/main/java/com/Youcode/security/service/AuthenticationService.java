@@ -4,6 +4,7 @@ import com.Youcode.security.auth.AuthenticationRequest;
 import com.Youcode.security.auth.AuthenticationResponse;
 import com.Youcode.security.auth.RegisterRequest;
 import com.Youcode.security.entities.Token;
+import com.Youcode.security.enums.Role;
 import com.Youcode.security.repository.TokenRepository;
 import com.Youcode.security.enums.TokenType;
 import com.Youcode.security.entities.User;
@@ -37,6 +38,9 @@ public class AuthenticationService {
         .password(passwordEncoder.encode(request.getPassword()))
         .role(request.getRole())
         .build();
+    if(request.getRole() == null){
+      user.setRole(Role.USER);
+    }
     var savedUser = repository.save(user);
     var jwtToken = jwtService.generateToken(user);
     var refreshToken = jwtService.generateRefreshToken(user);
