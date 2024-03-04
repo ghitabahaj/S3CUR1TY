@@ -1,9 +1,8 @@
 package com.Youcode.security.service.Impl;
 
-
-import com.Youcode.security.service.ActorService;
+import com.Youcode.security.service.MediaService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ActorServiceImpl implements ActorService {
+public class MediaServiceImpl implements MediaService {
 }

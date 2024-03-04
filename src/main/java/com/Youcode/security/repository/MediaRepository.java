@@ -1,13 +1,10 @@
 package com.Youcode.security.repository;
 
 
-import com.Youcode.security.entities.Actor;
+import com.Youcode.security.entities.Media;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-
 @Repository
-public interface ActorRepository extends JpaRepository<Actor, Long> {
-
-    
+public interface MediaRepository extends JpaRepository<Media,Long> {
 }
